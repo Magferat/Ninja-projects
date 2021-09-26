@@ -1,3 +1,6 @@
+/* Info :
+     This js file is under Header components. It provieds all atyles and codes in head section .*/
+
 import React from 'react';
 import './Header.css'
 
@@ -19,3 +22,4 @@ const Header = () => {
 };
 
 export default Header;
+

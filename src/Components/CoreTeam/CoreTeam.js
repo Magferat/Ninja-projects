@@ -1,9 +1,9 @@
 import React from 'react';
 import './CoreTeam.css';
 
-// Info :
-//This component contain the JavaScript code of 'Allied Shinobi  Forces' section. 
-// It was Called in 'Team' components Js File
+/* Info :
+This component contain the JavaScript code of 'Allied Shinobi  Forces' section. 
+It was Called in 'Team' components Js File*/
 
 const CoreTeam = (props) => {
 
@@ -28,9 +28,11 @@ const CoreTeam = (props) => {
                 {
                     props.coreTeam.map(ninjaa => <li
                     ><div className="list">
+                            <i class="fas fa-check"></i>
                             <img src={ninjaa.img} alt="" />
                             <p><b>{ninjaa.name}</b> <br />
-                                ${ninjaa.salary}k</p></div></li>)
+                                ${ninjaa.salary}k <br />
+                            </p></div></li>)
                 }
             </ul>
 
@@ -40,3 +42,8 @@ const CoreTeam = (props) => {
 };
 
 export default CoreTeam;
+
+
+/*
+ this JS file received an array as props from Team.js file
+ then it run .map funtion on this, and present them as list item in UI */

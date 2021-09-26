@@ -3,6 +3,7 @@ import CoreTeam from '../CoreTeam/CoreTeam';
 import Ninja from '../Ninja/Ninja';
 import './Team.css';
 
+
 const Team = () => {
 
     //   Loading Data From tools.JSON & Declearing State , Effect 
@@ -49,3 +50,7 @@ const Team = () => {
 };
 
 export default Team;
+
+/* Info :
+     This js file is under Team components. It fetch data from API.
+     run severel funtions and passed data as props in Ninja and  CoreTeam components*/

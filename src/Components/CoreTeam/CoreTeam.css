@@ -1,11 +1,12 @@
 ul{
     list-style: none;
+    padding-left: 5px;
 }
 .list{
     display: flex;
-    margin: 10px;
-    background-color: lightslategray;
-    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(223, 232, 248);
+    border-radius: 10px;
     
 }
 .list img{
@@ -13,4 +14,9 @@ ul{
     width: 100px;
     height: 100px;
     padding: 10px;
+}
+.fa-check{
+    padding-top: 14%;
+    padding-left: 5px;
+    color: steelblue;
 }
