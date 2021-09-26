@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+}
+.list{
+    display: flex;
+    margin: 10px;
+    background-color: lightslategray;
+    border-radius: 20px;
+    
+}
+.list img{
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}

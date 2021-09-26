@@ -1,0 +1,15 @@
+.team-setup{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.ninja-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-right: 2px dotted gray;
+    margin-left: 60px;
+}
+
+.core-team{
+text-align: center;
+margin-left: 10px;
+}
