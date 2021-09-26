@@ -32,7 +32,8 @@ const Ninja = (props) => {
                         <b>Ninja Village : </b>{country}. <br />
                         <b>Salary : </b>${salary}k
                     </p>
-                    <button onClick={() => handleCoreTeam(props.ninja)}>Add to A.S.F {select}</button>
+                    <button onClick={() => handleCoreTeam(props.ninja)}>Select for A.S.F {select}</button><br />
+                    <i className=" fab fa-twitter-square"></i> <i className="fab fa-linkedin"></i>
                 </div>
             </div>
         </>

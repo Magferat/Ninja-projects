@@ -1,7 +1,7 @@
 .card{
     border: 2px solid palegoldenrod;
     width: 350px;
-    height: 700px;
+    height: 800px;
     margin-bottom: 70px;
     padding: 10px;
     border-radius: 10px;
@@ -27,7 +27,9 @@ button{
     padding: 15px;
     font-weight: 600;
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 .container{
     padding-left: 5px;
@@ -44,4 +46,15 @@ button{
    -webkit-box-orient: vertical;
    padding-bottom: 2px;
 
+}
+
+.fa-twitter-square{
+    font-size: 60px;
+    padding-left: 110px;
+
+}
+.fa-linkedin{
+    font-size: 60px;
+padding-left: 20px;
+    
 }

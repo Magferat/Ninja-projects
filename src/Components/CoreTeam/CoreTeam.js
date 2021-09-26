@@ -14,21 +14,23 @@ const CoreTeam = (props) => {
 
     return (
         <div>
-            <h3>Your Core Team</h3> <hr />
+            <h3>Your Core Team <br />
+                <i className="fas fa-users"></i>
+            </h3>
             <h2>  Allied Shinobi Forces <br />
                 (A.S.F) </h2>
-            <h4>Selected Ninjas : {props.coreTeam.length}</h4>
+            <h4>  Selected Ninjas : {props.coreTeam.length}</h4>
             <h3 style={{
                 color: "maroon"
             }}>Total Expenses : $ {total}k</h3>
 
             <ul>
                 {
-                    props.coreTeam.map(person => <li
+                    props.coreTeam.map(ninjaa => <li
                     ><div className="list">
-                            <img src={person.img} alt="" />
-                            <p><b>{person.name}</b> <br />
-                                ${person.salary}k</p></div></li>)
+                            <img src={ninjaa.img} alt="" />
+                            <p><b>{ninjaa.name}</b> <br />
+                                ${ninjaa.salary}k</p></div></li>)
                 }
             </ul>
 
